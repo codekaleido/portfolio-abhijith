@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   User, LayoutDashboard, Code2, Layers, Mail, 
-  Github, Linkedin, Download, Menu, 
+  Globe, Link, Download, Menu, 
   Terminal, Database, Briefcase, GraduationCap,
   CheckCircle2, Clock, Send, MapPin
 } from 'lucide-react';
@@ -69,8 +69,8 @@ function App() {
         <div className="sidebar-footer">
           <p>Sree Buddha College of Engg</p>
           <div className="socials">
-            <a href="https://github.com" target="_blank" rel="noreferrer"><Github size={20} /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"><Linkedin size={20} /></a>
+            <a href="https://github.com" target="_blank" rel="noreferrer"><Globe size={20} /></a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer"><Link size={20} /></a>
           </div>
         </div>
       </aside>
@@ -163,7 +163,7 @@ function App() {
                       <div className="progress"><div className="progress-bar" style={{width: '80%'}}></div></div>
                     </li>
                     <li>
-                      <Github size={18} /> Git & GitHub 
+                      <Code2 size={18} /> Git & GitHub 
                       <div className="progress"><div className="progress-bar" style={{width: '85%'}}></div></div>
                     </li>
                     <li>
